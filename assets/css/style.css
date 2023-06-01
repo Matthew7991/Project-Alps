@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: "Cinzel", "Poppins";
+    color: #333;
+}
+
+.logo {
+    margin-top: 0.5rem;
+    margin-bottom: 1.3rem;
+    padding-left: 4rem;
+    font-size: 1.2rem;
+    opacity: 0.75;
+    display: inline-block;
+    margin-right: 58%;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 0;
+}
+
+
+/* SECTION HOME */
+.hero{
+    background-image: url("../img/hero.avif");
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero__header {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-top: 300px; */
+    padding-top: 300px;
+    width: 500px;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+/* Content Container */
+.contentContainer {
+    margin: 80px;
+}
+
+/* SECTION EXCURSION */
+.trip {
+    text-align: center;
+}
+.trip__image img {
+    width: 30%;
+}
+.trip__header,
+.trip__text,
+.trip__image {
+    margin-bottom: 50px;
+}
+
+
+
+.trip__image--image1,
+.trip__image--image2,
+.trip__image--image3 {
+    margin-bottom: 50px;
+}
+
+.trip__image--image1,
+.trip__image--image2,
+.trip__image--image4,
+.trip__image--image5 {
+    margin-right: 25px;
+}
+
+/* SECTION TOURDATES */
+.tour {
+    margin: 0 auto;
+    /* margin-bottom: 50px; */
+}
+
+.tour__header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tour__dates li{
+    /* padding-left: 40px; */
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.tour__dates--date1::after,
+.tour__dates--date2::after,
+.tour__dates--date3::after {
+    content: "- SOLD OUT";
+    color: red;
+    padding-left: 5px;
+}
+
+.tour__dates--date4::after {
+    content: "- ONLY 4 SPOT AVAILABLE";
+    color: red;
+    padding-left: 5px;
+}
+
+.tour__dates--date5::after,
+.tour__dates--date6::after {
+    content: "AVAILABLE";
+    color: green;
+    padding-left: 5px;
+}
+
+/* SECTION FOOTER */
+.contact {
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.contact__header{
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a {
+    padding: 0 10px;
+}
+
+.contact__facebook {
+    color: #4267B2;
+    text-decoration: none;
+}
+
+.contact__twitter {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.contact__instagram {
+    color: #C13584;
+    text-decoration: none;
+}
